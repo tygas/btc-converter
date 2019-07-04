@@ -1,0 +1,70 @@
+.today {
+  &--section {
+    margin-bottom: 40px;
+    padding: 0 50px;
+    text-align: center;
+    font-size: 35px;
+
+    h2 {
+      font-size: 20px;
+    }
+
+    h5 {
+      font-size: 25px;
+    }
+
+    &__box {
+      background-color: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 4px;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    }
+
+    &:not(:last-child) {
+      border-right: 1px solid #DAE1E9;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .eth--section {
+      border-right: none;
+    }
+    .btc--section {
+      border-right: none;
+    }
+    .today--section {
+      margin-top: 50px;
+    }
+  }
+}
+
+.currency-selector {
+  width: 290px;
+}
+
+.form {
+  display: flex;
+  margin: 50px auto;
+  width: 75%;
+  justify-content: center;
+
+  placeholder {
+    color: lightgrey;
+  }
+
+  label {
+    line-height: 2;
+    margin-right: 20px;
+  }
+}
+
+.input {
+  width: 150px;
+  border: 1px solid grey;
+  height: 1.5em;
+  box-sizing: content-box;
+  -webkit-tap-highlight-color: transparent;
+  margin-right: 1em;
+  text-align: center;
+}

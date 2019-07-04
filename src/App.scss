@@ -1,0 +1,59 @@
+h1 {font-size: 20px}
+
+.topheader {
+  background-color: #174c80;
+
+  h1 {
+    margin: 0 auto;
+    color: #fff;
+    font-size: 40px;
+    width: 10px;
+  }
+}
+
+
+
+.container {
+  @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+  font-family: 'Droid Serif, Tahoma';
+  text-align: center;
+}
+
+.results--section {
+  padding: 20px 0px;
+  margin-top: 40px;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.loading {
+  animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+  backface-visibility: hidden;
+  color: grey;
+  perspective: 1000px;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.center {
+  text-align: center;
+}
