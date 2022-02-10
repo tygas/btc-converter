@@ -13,7 +13,7 @@
     "fetch": "^1.1.0",
     "moment": "^2.24.0",
     "nock": "^10.0.6",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.19.1",
     "npm-run-all": "^4.1.5",
     "prop-types": "^15.7.2",
